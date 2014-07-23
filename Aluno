@@ -1,0 +1,13 @@
+class Aluno {
+	CarteiraEstudante aluno_ufba;
+	Avaliacao notas ;
+ 
+	 public Aluno() {
+		 aluno_ufba = new CarteiraEstudante();
+		 notas = new Avaliacao();
+		 
+		
+	}
+	
+	
+}
