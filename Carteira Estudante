@@ -1,0 +1,33 @@
+import java.util.Scanner;
+ 
+class CarteiraEstudante {
+ 
+	 String nome ;
+	 int matricula;
+	private Scanner ler;
+	 
+	 
+	 
+	public CarteiraEstudante() {
+		ler = new Scanner(System.in);
+		System.out.printf("Nome do aluno:\n");
+		this.nome = ler.next();
+		System.out.printf("Numero de matricula:\n");
+		this.matricula = ler.nextInt();
+	}
+ 
+	
+	public String getNome() {
+		return this.nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public int getMatricula() {
+		return this.matricula;
+	}
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
+	}
+	 
+}
