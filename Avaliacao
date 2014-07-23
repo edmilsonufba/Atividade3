@@ -1,0 +1,67 @@
+import java.util.Scanner;
+
+class Avaliacao {
+	int prova1 ;
+	int prova2;
+	int trabalho1 ;
+	int trabalho2 ;
+	int trabalho3 ;
+	int trabalho4 ;
+	private Scanner ler;
+	
+	public int getProva1() {
+		return this.prova1;
+	}
+	public void setProva1(int prova1) {
+		this.prova1 = prova1;
+	}
+	public int getProva2() {
+		return this.prova2;
+	}
+	public void setProva2(int prova2) {
+		this.prova2 = prova2;
+	}
+	public int getTrabalho1() {
+		return this.trabalho1;
+	}
+	public void setTrabalho1(int trabalho1) {
+		this.trabalho1 = trabalho1;
+	}
+	public int getTrabalho2() {
+		return this.trabalho2;
+	}
+	public void setTrabalho2(int trabalho2) {
+		this.trabalho2 = trabalho2;
+	}
+	public int getTrabalho3() {
+		return this.trabalho3;
+	}
+	public void setTrabalho3(int trabalho3) {
+		this.trabalho3 = trabalho3;
+	}
+	public int getTrabalho4() {
+		return this.trabalho4;
+	}
+	public void setTrabalho4(int trabalho4) {
+		this.trabalho4 = trabalho4;
+	}
+	
+	public Avaliacao() {
+		ler = new Scanner(System.in);
+		
+		System.out.printf("Digite a nota da prova 1 :\n");
+		this.prova1 = ler.nextInt();
+		System.out.printf("Digite a nota da prova 2 :\n");
+		this.prova2 = ler.nextInt();
+		System.out.printf("Digite a nota do trabalho 1:\n");
+		this.trabalho1 = ler.nextInt();
+		System.out.printf("Digite a nota do trabalho 2 :\n");
+		this.trabalho2 = ler.nextInt();
+		System.out.printf("Digite a nota do trabalho 3:\n");
+		this.trabalho3 = ler.nextInt();
+		System.out.printf("Digite a nota do trabalho 4:\n");
+		this.trabalho4 = ler.nextInt();
+	}
+	
+ 
+}
