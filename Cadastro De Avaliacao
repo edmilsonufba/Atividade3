@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class CadastroDeAvaliacao {
+	 
+	private static Scanner ler;
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.printf("Numero de alunos \n");
+		ler = new Scanner(System.in);
+	    int tamanho = ler.nextInt();
+	   
+		Aluno[] novoaluno;
+		novoaluno = new Aluno[tamanho];
+		for (int i =0;i<tamanho;i++){
+		novoaluno[i]= new Aluno();
+		}
+		
+		
+	}
+ 
+}
